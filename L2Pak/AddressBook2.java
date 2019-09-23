@@ -11,21 +11,14 @@ public class AddressBook2 {
 	}
 
 	public static void main(String[] args) {
-	/*	// TODO Auto-generated method stub
-		BuddyInfo2 person = new BuddyInfo2("Sandeep", "613-979-8000", "12 Liberty Court");
-		BuddyInfo2 person2 = new BuddyInfo2("John", "647-400-3780", "57 Theodore Drive");
-		BuddyInfo2 person3 = new BuddyInfo2("Sandeep", "613-979-8000", "12 Liberty Court");
-		AddressBook2 buddy = new AddressBook2();
-		buddy.addBuddy(person);
-		buddy.addBuddy(person2);
-		buddy.removeBuddy(person3);
-		System.out.println(buddy.toString());
-		*/
+		// TODO Auto-generated method stub
+		
 		
 		BuddyInfo2 person = new BuddyInfo2("Tom", "613", "Carleton");
 		AddressBook2 AB = new AddressBook2();
 		AB.addBuddy(person);
 		AB.removeBuddy(person);
+		System.out.println("Hello ");
 	}
 	
 	public void addBuddy(BuddyInfo2 person) {
