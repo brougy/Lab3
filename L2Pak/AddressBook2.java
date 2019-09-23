@@ -18,7 +18,7 @@ public class AddressBook2 {
 		AddressBook2 AB = new AddressBook2();
 		AB.addBuddy(person);
 		AB.removeBuddy(person);
-		System.out.println("Hello ");
+		System.out.println("Hello commitment");
 	}
 	
 	public void addBuddy(BuddyInfo2 person) {
