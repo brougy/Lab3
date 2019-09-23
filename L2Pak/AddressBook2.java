@@ -22,8 +22,10 @@ public class AddressBook2 {
 		System.out.println(buddy.toString());
 		*/
 		
-		System.out.println("Address Book");
-		
+		BuddyInfo2 person = new BuddyInfo2("Tom", "613", "Carleton");
+		AddressBook2 AB = new AddressBook2();
+		AB.addBuddy(person);
+		AB.removeBuddy(person);
 	}
 	
 	public void addBuddy(BuddyInfo2 person) {
